@@ -1,0 +1,51 @@
+{
+  "case_id": "BC-2023-04851",
+  "description": "Rivera v. Harmon Construction Group — known issues in the MSJ",
+  "known_issues": [
+    {
+      "id": "gt_1",
+      "finding_type": "FACT_CONTRADICTION",
+      "severity": "critical",
+      "description": "Wrong incident date: MSJ states March 14, 2021; police report, medical records, and witness statement all document March 12, 2021",
+      "msj_reference": "Introduction and Section II, fact 3",
+      "evidence_sources": ["police_report", "medical_records_excerpt", "witness_statement"],
+      "key_phrases": ["March 12", "March 14", "date of incident"]
+    },
+    {
+      "id": "gt_2",
+      "finding_type": "FACT_CONTRADICTION",
+      "severity": "critical",
+      "description": "PPE claim is false: MSJ claims Rivera was not wearing required PPE including fall-arrest equipment; police report (site supervisor Ellison) and witness statement (Diane Tran) both confirm he was wearing a hard hat, harness, and high-visibility vest at the time of the collapse",
+      "msj_reference": "Section II, fact 4",
+      "evidence_sources": ["police_report", "witness_statement"],
+      "key_phrases": ["wearing", "harness", "hard hat", "PPE", "personal protective equipment"]
+    },
+    {
+      "id": "gt_3",
+      "finding_type": "QUOTE_MISMATCH",
+      "severity": "high",
+      "description": "Fabricated or materially altered Privette quote: MSJ attributes 'A hirer is never liable for injuries sustained by an independent contractor's employees when the injuries arise from the contracted work' to Privette v. Superior Court at page 702. The actual Privette holding establishes a rebuttable presumption, not an absolute 'never liable' rule.",
+      "msj_reference": "Section III.A",
+      "evidence_sources": ["legal_knowledge"],
+      "key_phrases": ["never liable", "never", "Privette", "rebuttable presumption"]
+    },
+    {
+      "id": "gt_4",
+      "finding_type": "MISSING_EVIDENCE",
+      "severity": "high",
+      "description": "Harmon's foreman Donner exercised direct operational control: MSJ argues Apex — not Harmon — controlled the work; police report and witness statement show Donner personally directed the crew to work on the east-side section that morning, undermining the Privette defense",
+      "msj_reference": "Section III.A",
+      "evidence_sources": ["police_report", "witness_statement"],
+      "key_phrases": ["Donner", "directed", "east-side", "operational"]
+    },
+    {
+      "id": "gt_5",
+      "finding_type": "MISSING_EVIDENCE",
+      "severity": "high",
+      "description": "Harmon had prior knowledge of the defective scaffolding: witness Tran directly informed Donner about the unsafe base plate before the collapse; Donner dismissed the concern. MSJ's OSHA compliance argument omits this constructive notice.",
+      "msj_reference": "Section III.B",
+      "evidence_sources": ["police_report", "witness_statement"],
+      "key_phrases": ["Donner", "base plate", "plywood", "concerns", "dismissed"]
+    }
+  ]
+}

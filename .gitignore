@@ -24,3 +24,5 @@ docs/plans/
 
 # Local internal notes
 .internal/
+backend/eval_results.json
+backend/pytest_cache/

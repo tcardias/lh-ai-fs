@@ -147,10 +147,7 @@ No request body required — documents are loaded server-side from `backend/docu
 │   └── src/
 │       └── App.jsx                    # Single-page report viewer
 ├── docs/
-│   ├── decisions.md                   # Design decisions and implementation rationale
-│   ├── architecture-plan.md           # Agent design and data contracts
-│   ├── production-readiness-plan.md        # Production MVP plan
-│   └── README-original.md            # Original challenge README
+│   └── decisions.md                   # Design decisions and implementation rationale
 └── docker-compose.yml
 ```
 
@@ -185,6 +182,3 @@ Agent failures in Step 2 are captured in `pipeline_errors` and do not abort the 
 ## Further Reading
 
 - [`docs/decisions.md`](docs/decisions.md) — design decisions, agent prompting rationale, eval metric design, explicit tradeoffs
-- [`docs/architecture-plan.md`](docs/architecture-plan.md) — full data contracts and agent specifications
-- [`docs/production-readiness-plan.md`](docs/production-readiness-plan.md) — production MVP plan
-- [`docs/README-original.md`](docs/README-original.md) — original challenge brief
